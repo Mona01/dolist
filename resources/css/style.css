@@ -1,0 +1,94 @@
+/*========== Universal Styles ==========*/
+
+html {
+
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/*===============================*/
+/*========== My Styles ==========*/
+/*===============================*/
+
+/*==== Header Section ====*/
+#header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+}
+
+#header h1 {
+  background-color: lightBlue;
+
+  padding: 80px;
+}
+
+#header h2 {
+  background-color: lightGray;
+
+  padding: 80px;
+}
+
+
+/*==== Main Section ====*/
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.week {
+  display: inline-flex;
+  flex-direction: column;
+  flex-grow: 3;
+}
+
+.days {
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: row;
+  min-height: 200px;
+  align-items: center;
+}
+
+.main.day {
+  background-color: lightBlue;
+}
+
+.day {
+  background-color: beige;
+  width: 125px;
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*==== Reminder Section ====*/
+.reminder {
+  display: inline-flex;
+  flex-grow: 2;
+  background-color: beige;
+  margin: 10px;
+  justify-content: center;
+  padding: 10px;
+
+
+
+
+}
+
+
+/*==== Footer Section ====*/
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightGray;
+  min-height: 100px;
+
+}
